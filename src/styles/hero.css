@@ -1,0 +1,38 @@
+.section-hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  overflow: hidden;
+}
+.section-hero img {
+  position: absolute;
+
+  height: 100vh;
+  width: 100%;
+
+  object-fit: cover;
+  z-index: -10;
+  /* 
+  opacity: 0.5; */
+}
+.section-hero h3 {
+  font-size: medium;
+  color: #4d3bf3;
+  font-style: italic;
+}
+
+.section-hero h1 {
+  font-weight: 800;
+  color: #4d3bf3;
+  font-style: italic;
+  font-size: xx-large;
+}
+
+.slogan {
+  background: #e0dfdf;
+  justify-content: center;
+  text-align: center;
+}

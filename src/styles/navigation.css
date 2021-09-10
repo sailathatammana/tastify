@@ -1,0 +1,45 @@
+.site-navigation {
+  position: fixed;
+  width: 100%;
+  background: #b4b0dc;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-links {
+  width: 50%;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-links a {
+  margin-right: 10px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.nav-links a:hover {
+  color: var(--color-green);
+}
+
+.logo {
+  width: 58px;
+  justify-content: center;
+}
+
+.site-navigation h3 {
+  color: black;
+  font-weight: 800;
+  text-align: center;
+  font-size: medium;
+}
+
+@media (max-width: 645px) {
+  .nav-links {
+    flex-grow: 1;
+    font-size: 12px;
+  }
+}

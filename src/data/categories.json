@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Dishes",
+    "description": "Our dishes are vegan and homemade, the ingredients we love, shared with many people across other countries.",
+    "image": "dish.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Desserts",
+    "description": " Our desserts are homemade, and are mainly made of gluten free.",
+    "image": "dessert.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Drinks",
+    "description": "Our drinks are mostly organic and we do not use refined sugars, additives, preservatives.",
+    "image": "drink.jpg"
+  }
+]

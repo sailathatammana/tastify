@@ -1,0 +1,34 @@
+footer {
+  width: 100%;
+  background: #b4b0dc;
+  overflow: hidden;
+  bottom: 0;
+  display: grid;
+  justify-items: center;
+}
+
+.footer p {
+  margin-bottom: var(--space-medium);
+  margin-top: 0;
+  font-size: 11px;
+}
+
+.footer ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 0;
+  margin: var(--space-small);
+  margin-top: var(--space-medium);
+}
+
+.footer li {
+  display: flex;
+  justify-items: center;
+}
+
+.footer img {
+  width: 24px;
+  margin-right: var(--space-small);
+}

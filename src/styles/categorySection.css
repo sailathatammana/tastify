@@ -1,0 +1,77 @@
+.section-menu {
+  height: max-content;
+  display: grid;
+  grid-template-rows: repeat(3, 33.33%);
+  grid-template-columns: 1fr;
+}
+
+.section-menu img {
+  grid-area: img;
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
+  object-position: top center;
+  padding-top: 20px;
+  border-radius: 25px;
+}
+
+.section-menu h2,
+.section-menu p {
+  padding: 0 12px;
+  justify-content: center;
+  text-align: center;
+}
+.section-menu h2 {
+  grid-area: title;
+  text-transform: capitalize;
+  padding-top: 12px;
+}
+.section-menu p {
+  grid-area: description;
+  text-align: justify;
+  text-justify: inter-character;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  height: max-content;
+}
+.section-menu a {
+  grid-area: link;
+  align-self: center;
+  justify-self: center;
+  width: max-content;
+  text-align: center;
+}
+@media (min-width: 900px) {
+  .section-menu img {
+    height: 275px;
+    padding-left: 80px;
+  }
+
+  .section-menu h2,
+  .section-menu p {
+    padding-right: 100px;
+    text-align: center;
+  }
+  .section-menu {
+    height: max-content;
+    padding: 10px;
+    border-bottom: 1px solid #eeeeee;
+  }
+  .section-menu article {
+    background: white;
+    display: grid;
+    grid-template-columns: 33% 1fr;
+    grid-template-rows: min-content 1fr min-content;
+    grid-column-gap: 96px;
+    grid-template-areas:
+      "img title"
+      "img description"
+      "img link";
+  }
+  .section-menu article:nth-child(even) {
+    grid-template-areas:
+      "title img"
+      "description img "
+      "link img ";
+  }
+}
