@@ -1,7 +1,8 @@
-import React from "react";
+import React from "react"; // no need to import react since version 17
 
 export default function NutritionFactsSection({ product }) {
   const calories = product.nutrition_facts[0];
+  // this simple line of code, is formated as 3 lines by Prettier, giving the clue that needs refactor -1
   const otherData = product.nutrition_facts.slice(
     1,
     product.nutrition_facts.length

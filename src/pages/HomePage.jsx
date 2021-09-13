@@ -6,6 +6,8 @@ export default function HomePage() {
   const CategoriesList = CategoryData.map((item) => (
     <CategorySection key={item.id} item={item} />
   ));
+
+  // space between const, methods and return
   return (
     <div>
       <Hero />

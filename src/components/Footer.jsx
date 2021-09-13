@@ -1,6 +1,7 @@
 import Facebook from "../assets/icons/facebook.png";
 import Instagram from "../assets/icons/instagram.png";
 
+// this links can be items created using a extenral json or an object from here
 export default function Footer() {
   return (
     <footer className="footer">

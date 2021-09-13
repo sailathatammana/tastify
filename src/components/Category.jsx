@@ -9,6 +9,7 @@ export default function Category({ item }) {
         <img className="catimg" src={imageURL} alt="img" />
         <h2>{item.name}</h2>
         <p>{item.description}</p>
+        {/* There is a NavLink component from React router it gives you benefits like auto go back features */}
         <a href={`./${item.name}`} className="btn btn-main">
           <h3> View {item.name}</h3>
         </a>

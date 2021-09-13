@@ -3,6 +3,8 @@ import React from "react";
 export default function Products({ item }) {
   const imageObject = require(`../assets/products/${item.image}`);
   const imageURL = imageObject.default;
+
+  // space
   return (
     <section className="section-products ">
       <article>

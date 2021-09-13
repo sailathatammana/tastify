@@ -5,6 +5,9 @@ export default function IngredientsSection({ product }) {
     <section className="section-ingredients">
       <h3>Ingredients</h3>
       <ul>
+        {/* No logic inside JSX, use a const -1  */}
+        {/* Not for using logic inside the JSX but for consistency */}
+        {/* On CategoryPage.jsx you create const ProductsList. Why dont use the same code style here?*/}
         {product.ingredients.map((ingredient) => {
           return (
             <li>

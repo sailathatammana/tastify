@@ -13,6 +13,7 @@ export default function App() {
       <Router>
         <Nav />
         <Switch>
+          {/* You don't need exact in every page just in "/" for home */}
           <Route exact path="/" component={HomePage} />
           <Route exact path="/contact" component={ContactPage} />
           <Route exact path="/:category" component={CategoryPage} />

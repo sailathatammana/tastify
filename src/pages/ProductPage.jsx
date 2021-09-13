@@ -11,11 +11,12 @@ export default function ProductPage() {
   const { id } = useParams();
   const iDNumber = Number.parseInt(id);
 
+  // if you having a single line of return, you can skip the return entirely inside .map, .filter, .reduce, etc.
   function getRelatedItem(id) {
-    return ProductData.filter((item) => {
-      return item.id === id;
-    });
+    return ProductData.filter((item) => item.id === id);
   }
+
+  // again, if a function is called only 1 in the lifetime of the component you can use derived state.
   const product = getRelatedItem(iDNumber)[0];
 
   return (
