@@ -3,6 +3,7 @@ export default function BookingForm() {
     event.preventDefault();
     alert("Your booking request is saved");
   }
+
   return (
     <form onSubmit={(event) => Book(event)}>
       <h3>Book a table</h3>

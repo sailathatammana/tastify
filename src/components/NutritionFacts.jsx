@@ -1,35 +1,41 @@
 import React from "react";
+import Table from "./Table";
 
-export default function NutritionFactsSection({ product }) {
-  const nutritionFacts = product.nutrition_facts;
-  const calories = product.nutrition_facts[0];
-  const otherData = nutritionFacts.slice(1, nutritionFacts.length);
-  const TablePercentage = otherData.map((item) => {
-    return (
-      <tr key={item.id}>
-        <td>
-          <p>{item.label}</p>
-        </td>
-        <td>
-          <p>{item.value}%</p>
-        </td>
-      </tr>
-    );
-  });
+export default function NutritionFacts({ product }) {
+  const nutritionRows = product.nutrients.map((item) => (
+    <Table key={item.id} item={item} />
+  ));
 
   return (
-    <section className="section-nutrition_facts">
-      <h2>Nutrition Facts</h2>
-      <div className="separator" />
-      <div className="calories">
-        <h2>Calories</h2>
-        <h1>{calories.value}</h1>
-      </div>
-      <div className="separator" />
-      <h2 className="daily_value">% Daily Value per*</h2>
-      <table>
-        <tbody>{TablePercentage}</tbody>
-      </table>
-    </section>
+    <table className="nutrition-table">
+      <caption>Nutrition Facts</caption>
+      <tbody>
+        <tr>
+          <td>Serving size</td>
+          <td>{product.servingSize}g</td>
+        </tr>
+        <tr>
+          <td>Serving per Container</td>
+          <td>{product.servingSizePerContainer}g</td>
+        </tr>
+        <tr>
+          <td className="main-text">Amount Per Serving</td>
+        </tr>
+        <tr className="thick-row-top">
+          <td>
+            <b>Calories</b>
+          </td>
+          <td>
+            <b>{product.calories}</b>
+          </td>
+        </tr>
+        <tr className="thick-row-top">
+          <td colSpan="3" className="main-text align-right">
+            % Daily Value
+          </td>
+        </tr>
+        {nutritionRows}
+      </tbody>
+    </table>
   );
 }

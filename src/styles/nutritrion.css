@@ -1,38 +1,58 @@
-.section-nutrition_facts {
-  padding: 0 12px;
+.nutrition-table {
+  width: 70vw;
+  margin: auto;
 }
-.separator {
-  background: black;
-  height: 5px;
-  width: 100%;
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
-.calories {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.nutrition-table caption {
+  font-size: 25px;
+  font-weight: bold;
 }
-.daily_value {
+
+.nutrition-table tr {
+  line-height: 1.5;
+  border-bottom: 1px solid black;
+  vertical-align: baseline;
+}
+
+.thick-row-top td {
+  border-top: 5px solid black;
+}
+
+.thick-row-bottom td {
+  border-bottom: 5px solid black;
+}
+
+.nutrition-table td:nth-child(2) {
   text-align: right;
 }
-h2 {
-  padding: 0;
-  margin: 0;
+
+.main-text {
+  font-weight: bold;
 }
-table,
-tbody {
-  width: 100%;
+
+.align-right {
+  text-align: right;
 }
-tr {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  text-transform: capitalize;
-  border-bottom: 1px solid black;
+
+.nutrition-table tr:nth-of-type(6) span,
+.nutrition-table tr:nth-of-type(8) span,
+.nutrition-table tr:nth-of-type(9) span,
+.nutrition-table tr:nth-of-type(10) span,
+.nutrition-table tr:nth-of-type(13) span {
+  font-weight: bold;
+  font-size: 20px;
 }
+
+.nutrition-table tr:last-of-type td {
+  border-bottom: 5px solid black;
+}
+
 @media (min-width: 900px) {
-  .section-nutrition_facts {
-    width: 800px;
-    margin: auto;
+  .nutrition-table {
+    max-width: 960px;
   }
 }

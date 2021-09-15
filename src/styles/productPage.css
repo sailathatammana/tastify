@@ -51,12 +51,12 @@
 }
 
 @media (min-width: 900px) {
+  .section-product_description {
+    max-width: 960px;
+  }
+
   .section-product_description img {
     height: 300px;
     width: auto;
-  }
-  .section-product_description p {
-    width: 900px;
-    padding-left: 180px;
   }
 }

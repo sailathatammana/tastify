@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 export default function Category({ item }) {
   const imageObject = require(`../assets/categories/${item.image}`);
   const imageURL = imageObject.default;
+
   return (
     <section className="section-menu ">
       <article>
