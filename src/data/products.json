@@ -21,7 +21,7 @@
       {
         "id": 1,
         "label": "Fat",
-        "amount": 0,
+        "amount": 24,
         "unit": "mg",
         "value": 9
       },
@@ -49,28 +49,28 @@
       {
         "id": 5,
         "label": "Carbs",
-        "amount": 0,
+        "amount": 14,
         "unit": "mg",
         "value": 32
       },
       {
         "id": 6,
         "label": "Sugars",
-        "amount": 0,
+        "amount": 17,
         "unit": "mg",
         "value": 12
       },
       {
         "id": 7,
         "label": "Fiber",
-        "amount": 0,
+        "amount": 30,
         "unit": "mg",
         "value": 11
       },
       {
         "id": 8,
         "label": "Protein",
-        "amount": 0,
+        "amount": 2,
         "unit": "mg",
         "value": 12
       }
@@ -97,21 +97,21 @@
       {
         "id": 1,
         "label": "Fat",
-        "amount": 343,
+        "amount": 40,
         "unit": "mg",
         "value": 26
       },
       {
         "id": 2,
         "label": "saturated fat",
-        "amount": 343,
+        "amount": 2,
         "unit": "mg",
         "value": 4
       },
       {
         "id": 3,
         "label": "Sodium",
-        "amount": 343,
+        "amount": 12,
         "unit": "mg",
         "value": 34
       },
@@ -125,28 +125,28 @@
       {
         "id": 5,
         "label": "Carbs",
-        "amount": 343,
+        "amount": 50,
         "unit": "mg",
         "value": 56
       },
       {
         "id": 6,
         "label": "Sugars",
-        "amount": 343,
+        "amount": 40,
         "unit": "mg",
         "value": 19
       },
       {
         "id": 7,
         "label": "Fiber",
-        "amount": 343,
+        "amount": 12,
         "unit": "mg",
         "value": 11
       },
       {
         "id": 8,
         "label": "Protein",
-        "amount": 343,
+        "amount": 18,
         "unit": "mg",
         "value": 41
       }
@@ -173,56 +173,56 @@
       {
         "id": 1,
         "label": "Fat",
-        "amount": 343,
+        "amount": 200,
         "unit": "mg",
         "value": 20
       },
       {
         "id": 2,
         "label": "saturated fat",
-        "amount": 343,
+        "amount": 150,
         "unit": "mg",
         "value": 8
       },
       {
         "id": 3,
         "label": "Sodium",
-        "amount": 343,
+        "amount": 100,
         "unit": "mg",
         "value": 34
       },
       {
         "id": 4,
         "label": "Cholesterol",
-        "amount": 0,
+        "amount": 90,
         "unit": "mg",
-        "value": 0
+        "value": 7
       },
       {
         "id": 5,
         "label": "Carbs",
-        "amount": 343,
+        "amount": 250,
         "unit": "mg",
         "value": 27
       },
       {
         "id": 6,
         "label": "Sugars",
-        "amount": 343,
+        "amount": 186,
         "unit": "mg",
-        "value": 3
+        "value": 33
       },
       {
         "id": 7,
         "label": "Fiber",
-        "amount": 343,
+        "amount": 129,
         "unit": "mg",
         "value": 4
       },
       {
         "id": 8,
         "label": "Protein",
-        "amount": 343,
+        "amount": 78,
         "unit": "mg",
         "value": 7
       }
@@ -249,21 +249,21 @@
       {
         "id": 1,
         "label": "Fat",
-        "amount": 343,
+        "amount": 326,
         "unit": "mg",
         "value": 8
       },
       {
         "id": 2,
         "label": "saturated fat",
-        "amount": 343,
+        "amount": 89,
         "unit": "mg",
         "value": 1
       },
       {
         "id": 3,
         "label": "Sodium",
-        "amount": 343,
+        "amount": 178,
         "unit": "mg",
         "value": 34
       },
@@ -277,28 +277,28 @@
       {
         "id": 5,
         "label": "Carbs",
-        "amount": 343,
+        "amount": 156,
         "unit": "mg",
         "value": 21
       },
       {
         "id": 6,
         "label": "Sugars",
-        "amount": 343,
+        "amount": 148,
         "unit": "mg",
         "value": 1
       },
       {
         "id": 7,
         "label": "Fiber",
-        "amount": 343,
+        "amount": 236,
         "unit": "mg",
         "value": 5
       },
       {
         "id": 8,
         "label": "Protein",
-        "amount": 343,
+        "amount": 78,
         "unit": "mg",
         "value": 6
       }
@@ -319,56 +319,56 @@
       {
         "id": 1,
         "label": "Fat",
-        "amount": 343,
+        "amount": 268,
         "unit": "mg",
         "value": 9
       },
       {
         "id": 2,
         "label": "saturated fat",
-        "amount": 343,
+        "amount": 189,
         "unit": "mg",
         "value": 3
       },
       {
         "id": 3,
         "label": "Sodium",
-        "amount": 343,
+        "amount": 167,
         "unit": "mg",
         "value": 34
       },
       {
         "id": 4,
         "label": "Cholesterol",
-        "amount": 0,
+        "amount": 98,
         "unit": "mg",
-        "value": 0
+        "value": 37
       },
       {
         "id": 5,
         "label": "Carbs",
-        "amount": 343,
+        "amount": 289,
         "unit": "mg",
         "value": 5
       },
       {
         "id": 6,
         "label": "Sugars",
-        "amount": 343,
+        "amount": 237,
         "unit": "mg",
         "value": 4
       },
       {
         "id": 7,
         "label": "Fiber",
-        "amount": 343,
+        "amount": 76,
         "unit": "mg",
         "value": 1
       },
       {
         "id": 8,
         "label": "Protein",
-        "amount": 343,
+        "amount": 58,
         "unit": "mg",
         "value": 2
       }
@@ -395,56 +395,56 @@
       {
         "id": 1,
         "label": "Fat",
-        "amount": 0,
+        "amount": 456,
         "unit": "mg",
         "value": 24
       },
       {
         "id": 2,
         "label": "saturated fat",
-        "amount": 0,
+        "amount": 189,
         "unit": "mg",
         "value": 6
       },
       {
         "id": 3,
         "label": "Sodium",
-        "amount": 343,
+        "amount": 167,
         "unit": "mg",
         "value": 34
       },
       {
         "id": 4,
         "label": "Cholesterol",
-        "amount": 0,
+        "amount": 123,
         "unit": "mg",
         "value": 0
       },
       {
         "id": 5,
         "label": "Carbs",
-        "amount": 0,
+        "amount": 178,
         "unit": "mg",
         "value": 53
       },
       {
         "id": 6,
         "label": "Sugars",
-        "amount": 0,
+        "amount": 156,
         "unit": "mg",
         "value": 34
       },
       {
         "id": 7,
         "label": "Fiber",
-        "amount": 0,
+        "amount": 183,
         "unit": "mg",
         "value": 3
       },
       {
         "id": 8,
         "label": "Protein",
-        "amount": 0,
+        "amount": 40,
         "unit": "mg",
         "value": 4
       }
@@ -471,56 +471,56 @@
       {
         "id": 1,
         "label": "Fat",
-        "amount": 343,
+        "amount": 25,
         "unit": "mg",
         "value": 5
       },
       {
         "id": 2,
         "label": "saturated fat",
-        "amount": 343,
+        "amount": 78,
         "unit": "mg",
         "value": 3
       },
       {
         "id": 3,
         "label": "Sodium",
-        "amount": 343,
+        "amount": 54,
         "unit": "mg",
         "value": 34
       },
       {
         "id": 4,
         "label": "Cholesterol",
-        "amount": 0,
+        "amount": 98,
         "unit": "mg",
-        "value": 0
+        "value": 12
       },
       {
         "id": 5,
         "label": "Carbs",
-        "amount": 343,
+        "amount": 38,
         "unit": "mg",
         "value": 5
       },
       {
         "id": 6,
         "label": "Sugars",
-        "amount": 343,
+        "amount": 60,
         "unit": "mg",
         "value": 4
       },
       {
         "id": 7,
         "label": "Fiber",
-        "amount": 343,
+        "amount": 73,
         "unit": "mg",
         "value": 1
       },
       {
         "id": 8,
         "label": "Protein",
-        "amount": 343,
+        "amount": 49,
         "unit": "mg",
         "value": 1
       }
@@ -547,56 +547,56 @@
       {
         "id": 1,
         "label": "Fat",
-        "amount": 343,
+        "amount": 87,
         "unit": "mg",
         "value": 9
       },
       {
         "id": 2,
         "label": "saturated fat",
-        "amount": 343,
+        "amount": 53,
         "unit": "mg",
         "value": 1
       },
       {
         "id": 3,
         "label": "Sodium",
-        "amount": 343,
+        "amount": 22,
         "unit": "mg",
         "value": 34
       },
       {
         "id": 4,
         "label": "Cholesterol",
-        "amount": 0,
+        "amount": 90,
         "unit": "mg",
-        "value": 0
+        "value": 12
       },
       {
         "id": 5,
         "label": "Carbs",
-        "amount": 343,
+        "amount": 47,
         "unit": "mg",
-        "value": 47
+        "value": 24
       },
       {
         "id": 6,
         "label": "Sugars",
-        "amount": 343,
+        "amount": 56,
         "unit": "mg",
         "value": 29
       },
       {
         "id": 7,
         "label": "Fiber",
-        "amount": 343,
+        "amount": 76,
         "unit": "mg",
-        "value": 1
+        "value": 14
       },
       {
         "id": 8,
         "label": "Protein",
-        "amount": 343,
+        "amount": 12,
         "unit": "mg",
         "value": 2
       }
@@ -617,56 +617,56 @@
       {
         "id": 1,
         "label": "Fat",
-        "amount": 0,
+        "amount": 49,
         "unit": "mg",
-        "value": 0
+        "value": 2
       },
       {
         "id": 2,
         "label": "saturated fat",
-        "amount": 0,
+        "amount": 38,
         "unit": "mg",
-        "value": 0
+        "value": 18
       },
       {
         "id": 3,
         "label": "Sodium",
-        "amount": 343,
+        "amount": 82,
         "unit": "mg",
         "value": 34
       },
       {
         "id": 4,
         "label": "Cholesterol",
-        "amount": 0,
+        "amount": 91,
         "unit": "mg",
-        "value": 0
+        "value": 23
       },
       {
         "id": 5,
         "label": "Carbs",
-        "amount": 0,
+        "amount": 38,
         "unit": "mg",
         "value": 19
       },
       {
         "id": 6,
         "label": "Sugars",
-        "amount": 0,
+        "amount": 90,
         "unit": "mg",
         "value": 17
       },
       {
         "id": 7,
         "label": "Fiber",
-        "amount": 0,
+        "amount": 20,
         "unit": "mg",
         "value": 5
       },
       {
         "id": 8,
         "label": "Protein",
-        "amount": 0,
+        "amount": 64,
         "unit": "mg",
         "value": 2
       }
@@ -687,9 +687,9 @@
       {
         "id": 1,
         "label": "Fat",
-        "amount": 0,
+        "amount": 78,
         "unit": "mg",
-        "value": 1
+        "value": 14
       },
       {
         "id": 2,
@@ -715,28 +715,28 @@
       {
         "id": 5,
         "label": "Carbs",
-        "amount": 0,
+        "amount": 80,
         "unit": "mg",
         "value": 54
       },
       {
         "id": 6,
         "label": "Sugars",
-        "amount": 0,
+        "amount": 70,
         "unit": "mg",
-        "value": 248
+        "value": 28
       },
       {
         "id": 7,
         "label": "Fiber",
-        "amount": 0,
+        "amount": 40,
         "unit": "mg",
         "value": 2
       },
       {
         "id": 8,
         "label": "Protein",
-        "amount": 0,
+        "amount": 20,
         "unit": "mg",
         "value": 4
       }
@@ -762,27 +762,22 @@
     "nutrients": [
       {
         "id": 1,
-        "label": "Calories",
-        "value": 230
-      },
-      {
-        "id": 1,
         "label": "Fat",
-        "amount": 343,
+        "amount": 24,
         "unit": "mg",
         "value": 0.1
       },
       {
         "id": 2,
         "label": "saturated fat",
-        "amount": 343,
+        "amount": 0,
         "unit": "mg",
         "value": 0
       },
       {
         "id": 3,
         "label": "Sodium",
-        "amount": 343,
+        "amount": 48,
         "unit": "mg",
         "value": 34
       },
@@ -796,28 +791,28 @@
       {
         "id": 5,
         "label": "Carbs",
-        "amount": 343,
+        "amount": 43,
         "unit": "mg",
         "value": 11
       },
       {
         "id": 6,
         "label": "Sugars",
-        "amount": 343,
+        "amount": 33,
         "unit": "mg",
         "value": 11
       },
       {
         "id": 7,
         "label": "Fiber",
-        "amount": 343,
+        "amount": 56,
         "unit": "mg",
         "value": 0.1
       },
       {
         "id": 8,
         "label": "Protein",
-        "amount": 343,
+        "amount": 16,
         "unit": "mg",
         "value": 0.4
       }
@@ -844,56 +839,56 @@
       {
         "id": 1,
         "label": "Fat",
-        "amount": 343,
+        "amount": 0,
         "unit": "mg",
         "value": 0
       },
       {
         "id": 2,
         "label": "saturated fat",
-        "amount": 343,
+        "amount": 0,
         "unit": "mg",
         "value": 0
       },
       {
         "id": 3,
         "label": "Sodium",
-        "amount": 343,
+        "amount": 24,
         "unit": "mg",
-        "value": 34
+        "value": 13
       },
       {
         "id": 4,
         "label": "Cholesterol",
-        "amount": 0,
+        "amount": 30,
         "unit": "mg",
-        "value": 0
+        "value": 8
       },
       {
         "id": 5,
         "label": "Carbs",
-        "amount": 343,
+        "amount": 34,
         "unit": "mg",
         "value": 15
       },
       {
         "id": 6,
         "label": "Sugars",
-        "amount": 343,
+        "amount": 77,
         "unit": "mg",
         "value": 15
       },
       {
         "id": 7,
         "label": "Fiber",
-        "amount": 343,
+        "amount": 0,
         "unit": "mg",
         "value": 0
       },
       {
         "id": 8,
         "label": "Protein",
-        "amount": 343,
+        "amount": 0,
         "unit": "mg",
         "value": 0
       }

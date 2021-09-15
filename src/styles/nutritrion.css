@@ -3,8 +3,14 @@
   margin: auto;
 }
 table {
+  border: 2px solid black;
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+.nutrition-table td,
+tr {
+  padding: 0 5px;
 }
 
 .nutrition-table caption {
@@ -31,7 +37,7 @@ table {
 }
 
 .main-text {
-  font-weight: bold;
+  font-weight: 500;
 }
 
 .align-right {
@@ -43,16 +49,10 @@ table {
 .nutrition-table tr:nth-of-type(9) span,
 .nutrition-table tr:nth-of-type(10) span,
 .nutrition-table tr:nth-of-type(13) span {
-  font-weight: bold;
-  font-size: 20px;
+  font-weight: 500;
+  font-size: 18px;
 }
 
 .nutrition-table tr:last-of-type td {
   border-bottom: 5px solid black;
-}
-
-@media (min-width: 900px) {
-  .nutrition-table {
-    max-width: 960px;
-  }
 }
