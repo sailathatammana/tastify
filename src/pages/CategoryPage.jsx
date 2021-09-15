@@ -7,22 +7,11 @@ import Products from "../components/Products";
 
 export default function CategoryPage() {
   const { category } = useParams();
+  const products = ProductData.filter((item) => item.category === category);
+  const description = CategoryData.filter((item) => item.name === category)[0]
+    .description;
 
-  function getRelatedFood(array, categoryOfFood) {
-    return array.filter((item) => {
-      return item.category === categoryOfFood;
-    });
-  }
-
-  function getCategoryDescription(array, categoryOfFood) {
-    return array.filter((item) => {
-      return item.name === categoryOfFood;
-    })[0].description;
-  }
-  const plats = getRelatedFood(ProductData, category);
-  const description = getCategoryDescription(CategoryData, category);
-
-  const ProductsList = plats.map((item) => (
+  const ProductsList = products.map((item) => (
     <Products key={item.id} item={item} />
   ));
 

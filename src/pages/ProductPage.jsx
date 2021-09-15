@@ -10,13 +10,7 @@ export default function ProductPage() {
   const { category } = useParams();
   const { id } = useParams();
   const iDNumber = Number.parseInt(id);
-
-  function getRelatedItem(id) {
-    return ProductData.filter((item) => {
-      return item.id === id;
-    });
-  }
-  const product = getRelatedItem(iDNumber)[0];
+  const product = ProductData.filter((item) => item.id === iDNumber)[0];
 
   return (
     <main className="page-product">

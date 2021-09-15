@@ -8,7 +8,6 @@ export default function Nav() {
     <nav className="site-navigation">
       <Link to="/">
         <img className="logo" src={logo} alt="Restaurant logo" />
-        {/* <h3>Tastify</h3> */}
       </Link>
       <ul className="nav-links">
         <Link to="/Dishes">
