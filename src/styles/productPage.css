@@ -10,10 +10,9 @@
   padding: 0 12px;
 }
 
-.page-product .btn-300 {
-  width: 300px;
+.page-product a {
+  font-weight: 700;
   margin: 24px;
-  text-align: center;
 }
 
 .section-product_description {

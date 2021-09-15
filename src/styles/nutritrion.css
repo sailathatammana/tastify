@@ -30,10 +30,6 @@ tr {
   text-transform: capitalize;
   border-bottom: 1px solid black;
 }
-.value {
-  height: max-content;
-}
-
 @media (min-width: 900px) {
   .section-nutrition_facts {
     width: 800px;
