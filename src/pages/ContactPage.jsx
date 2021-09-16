@@ -6,21 +6,18 @@ import BookingForm from "../components/BookingForm";
 
 export default function ContactPage() {
   return (
-    <div className="contact">
-      <img
-        className="contact-hero"
-        src={Contact}
-        alt="a young woman and nature"
-      />
-      <h1>Contact Us</h1>
-      <div className="contact-content">
+    <article className="contact">
+      <section className="hero">
+        <img className="image" src={Contact} alt="Product" />
+      </section>
+      <section className="content-section">
         <ContactInfo />
         <BookingForm />
-      </div>
+      </section>
       <div className="contact-map">
         <h3>Map</h3>
         <img src={Map} alt="Restaurant map" />
       </div>
-    </div>
+    </article>
   );
 }
