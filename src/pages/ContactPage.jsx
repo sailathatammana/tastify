@@ -1,8 +1,8 @@
 import Contact from "../assets/contact.jpg";
-import Map from "../assets/map.JPG";
 
 import ContactInfo from "../components/ContactInfo";
 import BookingForm from "../components/BookingForm";
+import Map from "../components/Map";
 
 export default function ContactPage() {
   return (
@@ -14,10 +14,7 @@ export default function ContactPage() {
         <ContactInfo />
         <BookingForm />
       </section>
-      <div className="contact-map">
-        <h3>Map</h3>
-        <img src={Map} alt="Restaurant map" />
-      </div>
+      <Map />
     </article>
   );
 }

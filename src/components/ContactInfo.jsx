@@ -6,7 +6,7 @@ export default function ContactInfo() {
       <p>Weekend 11:00 - 21:00 13.00-24.00</p>
       <h2>Where to find us</h2>
       <address>
-        <p>Östra Torn</p>
+        <p>Musikantvägen</p>
         <p>Lund, Sweden</p>
       </address>
     </div>
