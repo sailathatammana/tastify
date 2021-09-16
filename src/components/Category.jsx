@@ -6,16 +6,15 @@ export default function Category({ item }) {
   const imageURL = imageObject.default;
 
   return (
-    <section className="section-menu ">
-      <article>
-        <img className="catimg" src={imageURL} alt="img" />
-        <h2>{item.name}</h2>
-        <p>{item.description}</p>
-        <Link to={`./${item.name}`}>View {item.name}</Link>
-        {/* <a href={`./${item.name}`} className="btn btn-main">
-          <h3> View {item.name}</h3>
-        </a> */}
-      </article>
-    </section>
+    <article className="menu">
+      <img className="image" src={imageURL} alt="img" />
+      <div className="container">
+        <div className="center">
+          <h2>{item.name}</h2>
+          <p>{item.description}</p>
+          <Link to={`./${item.name}`}>View {item.name}</Link>
+        </div>
+      </div>
+    </article>
   );
 }

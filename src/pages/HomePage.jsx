@@ -8,9 +8,9 @@ export default function HomePage() {
   ));
 
   return (
-    <div>
+    <div id="home">
       <Hero />
-      {CategoriesList}
+      <section className="section-menu">{CategoriesList}</section>
     </div>
   );
 }
