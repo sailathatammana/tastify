@@ -51,10 +51,10 @@
   text-align: center;
 }
 
-@media (min-width: 550px) {
+@media (min-width: 900px) {
   .section-product_description {
     margin: 0 auto;
-    max-width: 430px;
+    max-width: 960px;
   }
 
   .section-product_description img {

@@ -16,32 +16,27 @@
     margin: 10px auto;
     max-width: 1920px;
   }
-  /* This move to a horizontal layout */
   #home .menu {
     display: flex;
     flex-direction: row;
   }
 
-  /* This make each side 50% wide */
   #home .menu .image,
   #home .menu .container {
     width: 50%;
   }
 
-  /* Center the text   */
   #home .menu .container {
     display: grid;
     align-self: center;
     justify-self: center;
   }
 
-  /* Limit the text lenght */
   #home .menu .center {
     margin: 0 auto;
     max-width: 430px;
   }
 
-  /* Alter the image location */
   #home .menu:nth-child(even) {
     flex-direction: row-reverse;
   }
