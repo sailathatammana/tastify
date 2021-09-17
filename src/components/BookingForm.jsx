@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 import Input from "./Input";
-import { inputName, inputEmail, inputDate, inputTime } from "../data/contact";
+import { inputName, inputEmail, inputDate, inputTime } from "../data/form.json";
 
 export default function BookingForm() {
   const [name, setName] = useState("");

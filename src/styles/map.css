@@ -1,0 +1,23 @@
+.maps {
+  position: relative;
+  max-width: 1000px;
+  margin: 0 auto;
+  height: 650px;
+  padding-bottom: 56.25%;
+  overflow: hidden;
+}
+
+.maps iframe {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 450;
+  width: 100%;
+}
+
+@media (min-width: 960px) {
+  .maps iframe {
+    margin: 0 auto;
+    width: 960px;
+  }
+}
