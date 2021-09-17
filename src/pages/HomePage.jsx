@@ -9,10 +9,8 @@ export default function HomePage() {
 
   return (
     <div id="home">
-      <div className="hero-page">
-        <Hero />
-        <section className="section-menu">{CategoriesList}</section>
-      </div>
+      <Hero />
+      <section className="section-menu">{CategoriesList}</section>
     </div>
   );
 }
