@@ -1,5 +1,6 @@
 import React from "react";
 import { useParams } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import ProductData from "../data/products.json";
 import ProductDescription from "../components/ProductDescription";
@@ -17,9 +18,7 @@ export default function ProductPage() {
       <ProductDescription product={product} />
       <Ingredients product={product} />
       <NutritionFacts product={product} />
-      <a className="btn btn-main btn-300" href={`../${category}`}>
-        <h3> Go back </h3>
-      </a>
+      <Link to={`../${category}`}>Go back</Link>
     </main>
   );
 }

@@ -44,9 +44,15 @@
   justify-self: center;
   margin: 0 36px;
   width: max-content;
+  font-weight: 700;
 }
 
 @media (min-width: 900px) {
+  .section-products {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+
   .section-products article {
     grid-column-gap: 96px;
   }

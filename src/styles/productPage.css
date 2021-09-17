@@ -10,10 +10,9 @@
   padding: 0 12px;
 }
 
-.page-product .btn-300 {
-  width: 300px;
+.page-product a {
+  font-weight: 700;
   margin: 24px;
-  text-align: center;
 }
 
 .section-product_description {
@@ -30,7 +29,8 @@
 }
 
 .section-ingredients {
-  padding: 10px;
+  margin: 0 auto;
+  max-width: 430px;
 }
 .section-ingredients ul {
   height: min-content;
@@ -52,12 +52,13 @@
 }
 
 @media (min-width: 900px) {
+  .section-product_description {
+    margin: 0 auto;
+    max-width: 430px;
+  }
+
   .section-product_description img {
     height: 300px;
     width: auto;
-  }
-  .section-product_description p {
-    width: 900px;
-    padding-left: 180px;
   }
 }

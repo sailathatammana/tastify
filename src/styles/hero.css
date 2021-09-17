@@ -36,3 +36,9 @@
   justify-content: center;
   text-align: center;
 }
+
+@media (min-width: 960px) {
+  .section-hero img {
+    max-width: 1920px;
+  }
+}

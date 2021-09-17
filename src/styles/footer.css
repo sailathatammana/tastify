@@ -28,9 +28,6 @@ footer {
 .footer li {
   display: flex;
   justify-items: center;
-}
-
-.footer img {
   width: 24px;
   margin-right: var(--space-small);
 }

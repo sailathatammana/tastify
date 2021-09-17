@@ -4,10 +4,7 @@
   justify-content: flex-start;
   align-items: center;
 }
-.page-category .btn-300 {
-  width: 300px;
-  margin: 24px;
-}
+
 .section-header {
   margin-top: 100px;
   width: 100%;
@@ -26,4 +23,11 @@
 }
 .section-description p {
   padding: 12px;
+}
+
+@media (min-width: 900px) {
+  .page-category {
+    margin: 0 auto;
+    max-width: 960px;
+  }
 }

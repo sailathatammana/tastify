@@ -1,20 +1,54 @@
+import { useState } from "react";
+
+import Input from "./Input";
+import { inputName, inputEmail, inputDate, inputTime } from "../data/form.json";
+
 export default function BookingForm() {
-  function Book(event) {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [date, setDate] = useState("");
+  const [time, setTime] = useState("");
+
+  const isDisabled = !(name && email && date && time);
+
+  function submitForm(event) {
     event.preventDefault();
-    alert("Your booking request is saved");
+    resetState();
+    alert("Your booking request is saved!");
   }
+
+  function resetState() {
+    setName("");
+    setEmail("");
+    setDate("");
+    setTime("");
+  }
+
   return (
-    <form onSubmit={(event) => Book(event)}>
-      <h3>Book a table</h3>
-      <p>Your Full Name</p>
-      <input type="text" placeholder="John" />
-      <p>Your Email address</p>
-      <input type="email" placeholder="john@gmail.com" />
-      <p>Choose date</p>
-      <input type="date" name="" id="" />
-      <p>Choose time</p>
-      <input type="time" />
-      <button>Submit</button>
-    </form>
+    <section className="booking">
+      <h2>Book a table</h2>
+      <form className="booking-form">
+        <Input hook={[name, setName]} HTMLParameters={inputName}>
+          Full Name*
+        </Input>
+        <Input hook={[email, setEmail]} HTMLParameters={inputEmail}>
+          Email*
+        </Input>
+        <Input hook={[date, setDate]} HTMLParameters={inputDate}>
+          Date*
+        </Input>
+        <Input hook={[time, setTime]} HTMLParameters={inputTime}>
+          Time*
+        </Input>
+        <button
+          type="submit"
+          className="button submit-btn"
+          disabled={isDisabled}
+          onClick={(event) => submitForm(event)}
+        >
+          Book
+        </button>
+      </form>
+    </section>
   );
 }
